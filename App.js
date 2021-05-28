@@ -48,10 +48,10 @@ export default function App() {
   }
 
   return (
-    <View style={styles.screenHeader}>
+    <SafeAreaView style={styles.screenHeader}>
       <Header title="GAME ĐOÁN SỐ" />
       {hienThi}
-    </View>
+    </SafeAreaView>
   );
 };
 
